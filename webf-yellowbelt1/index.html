@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="nav-header">
+      <div id="nav-header-top">
+        <div id="top">
+          <img src="img/leaf.png" alt="site-logo">
+          <h1>EasyBay</h1>
+        </div>
+        <input type="text" placeholder="Search for anything..." name="query" class="search">
+        <div id="customer">
+          <p>Sign in</p>
+          <img src="img/cart-dark.png" alt="your cart" onclick="alert('Your Cart is empty!')">
+        </div>
+      </div>
+      <div id="nav-header-bot">
+        <p>Aeonium</p>
+        <p>Andormischus</p>
+        <p>Agave</p>
+        <p>Aloe</p>
+        <p>Anacamperos</p>
+        <p>Aristaloe</p>
+        <p>More...</p>
+      </div>
+      <hr class="break-line">
+    </div>
+    <div id="nav-content">
+      <p>Your Source for Serious Succulent Specialities</p>
+      <div id="nav-content-mid">
+        <div id="nav-content-mid-left">
+          <div id="nav-content-mid-left-title">
+            <h2>Discover Succ- ulent varieties one pot or rock at a time!</h2>
+            <div id="nav-content-mid-left-discover">
+              <h2>Discover</h2>
+              <img src="img/arrow-light.png" alt="arrow pointer">
+            </div>
+          </div>
+          <img id="nav-content-mid-left-img" src="img/succulents-1.jpg" onmouseover="imageChangeIn()" onmouseout="imageChangeOut()" alt="discover image">
+        </div>
+        <div id="nav-content-mid-right">
+          <img src="img/aloe-m.jpg" alt="aloe image medium">
+          <div id="nav-content-mid-right-discover">
+            <p>Soothing aloe</p>
+            <img src="img/arrow-light.png" alt="arrow pointer">
+          </div>
+        </div>
+      </div>
+      <div id="nav-content-bot">
+        <div id="nav-content-bot-img">
+          <img src="img/aeonium-s.jpg" alt="">
+          <img src="img/aloe-s.jpg" alt="">
+          <img src="img/cactus-s.jpg" alt="">
+          <img src="img/echeveria-s.jpg" alt="">
+          <img src="img/sedum-s.jpg" alt="">
+          <img src="img/sempervivum-s.jpg" alt="">
+        </div>
+        <div id="nav-content-bot-title">
+          <p>Aeonium</p>
+          <p>Andormischus</p>
+          <p>Agave</p>
+          <p>Aloe</p>
+          <p>Anacamperos</p>
+          <p>Aristaloe</p>
+        </div>
+      </div>
+      <div id="nav-cookie">
+        <img src="img/alert-dark.png" alt="cookie icon">
+        <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our
+          <a href="#">cookie policy</a></p>
+        <button id="cookie-button" onclick="accept()">I accept</button>
+      </div>
+    </div>
+</body>
+</html>
